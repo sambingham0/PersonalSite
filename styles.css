@@ -96,7 +96,6 @@ section {
     justify-content: center;
     position: relative;
     height: 100%;
-    border: none;
 }
 #resume-button, #resume-button:visited, #resume-button:hover, #resume-button:active {
     text-decoration: none;
