@@ -1,0 +1,94 @@
+@media (max-width: 600px) {
+    /* Body adjustments */
+    body {
+        padding-top: 35%;
+        font-size: 0.9rem;
+    }
+
+    /* Header */
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-size: 1.2rem;
+        padding: 4%;
+        text-align: center;
+    }
+
+    #arrows {
+        padding-left: 0;
+    }
+
+    #arrows-image {
+        height: 80px;
+    }
+
+    #title {
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Sections */
+    section {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .about-resume {
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 10%;
+    }
+
+    #about, #resume {
+        max-width: 100%;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    /* Letter animation */
+    .letter-image {
+        width: 150px;
+        height: 150px;
+    }
+    .animated-mail {
+        height: 120px;
+        width: 150px;
+    }
+    .shadow {
+        width: 250px;
+    }
+
+    /* Project Links */
+    #projects {
+        flex-direction: column;
+    }
+
+    .project {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .project-links a {
+        padding: 10px 20px;
+        margin: 5px 0;
+        font-size: 1rem;
+    }
+
+    /* Tech Section */
+    #technologies {
+        padding: 20px;
+        margin: 20px 5%;
+    }
+
+    .tech-item {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+
+    /* Footer */
+    footer {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}
