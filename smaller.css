@@ -11,7 +11,7 @@
         align-items: center;
         gap: 10px;
         font-size: 1.2rem;
-        padding: 4%;
+        padding: 0%;
         text-align: center;
     }
 
@@ -58,6 +58,23 @@
     .shadow {
         width: 250px;
     }
+
+    .letter-image.open .animated-mail {
+        transform: translateY(50px);
+    }
+    
+    .letter-image.open .animated-mail .top-fold {
+        transform: rotateX(180deg);
+        z-index: 0;
+    }
+    
+    .letter-image.open .animated-mail .letter {
+        height: 180px;
+    }
+    
+    .letter-image.open .shadow {
+        width: 250px;
+    }    
 
     /* Project Links */
     #projects {
