@@ -1,5 +1,24 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
-    const letterImage = document.getElementById('letterImage');
+    const letterImage = document.getElementById('letter-image');
 
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
