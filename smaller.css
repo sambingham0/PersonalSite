@@ -25,6 +25,10 @@
         text-align: center;
     }
 
+    #title p {
+        font-size: 1rem;;
+    }
+
     /* Sections */
     section {
         margin: 10px;
