@@ -1,22 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 document.addEventListener('DOMContentLoaded', function() {
     const letterImage = document.getElementById('letter-image');
 
@@ -24,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 letterImage.classList.add('open');
+            } else {
+                letterImage.classList.remove('open');
             }
         });
     });
