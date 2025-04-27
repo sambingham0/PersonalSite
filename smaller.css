@@ -45,7 +45,9 @@
     }
 
     /* Letter animation */
-    
+    #resume-button {
+        font-size: 1.6rem;
+    }
 
     .letter-image.open .animated-mail {
         transform: translateY(50px);
