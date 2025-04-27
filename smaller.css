@@ -16,6 +16,7 @@
         gap: 10px;
         font-size: 1.2rem;
         padding-bottom: 3%;
+        padding-top: 3%;
         text-align: center;
     }
 
@@ -52,19 +53,23 @@
 
     .letter-image.open .animated-mail {
         transform: translateY(50px);
+        transition: transform 0.4s;
     }
     
     .letter-image.open .animated-mail .top-fold {
         transform: rotateX(180deg);
         z-index: 0;
+        transition: transform 0.4s;
     }
     
     .letter-image.open .animated-mail .letter {
         height: 180px;
+        transition: height 0.4s;
     }
     
     .letter-image.open .shadow {
         width: 250px;
+        transition: width 0.4s;
     }    
 
     /* Project Links */
