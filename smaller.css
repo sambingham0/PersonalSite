@@ -30,34 +30,21 @@
 
     /* Sections */
     section {
-        padding: 20px;
         margin: 10px;
     }
 
     .about-resume {
         flex-direction: column;
-        gap: 20px;
-        padding-top: 10%;
     }
 
     #about, #resume {
-        max-width: 100%;
+        max-width: 96%;
         width: 100%;
         font-size: 1.2rem;
     }
 
     /* Letter animation */
-    .letter-image {
-        width: 150px;
-        height: 150px;
-    }
-    .animated-mail {
-        height: 120px;
-        width: 150px;
-    }
-    .shadow {
-        width: 250px;
-    }
+    
 
     .letter-image.open .animated-mail {
         transform: translateY(50px);
@@ -93,10 +80,7 @@
     }
 
     /* Tech Section */
-    #technologies {
-        padding: 20px;
-        margin: 20px 5%;
-    }
+    
 
     .tech-item {
         font-size: 1rem;
