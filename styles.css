@@ -324,6 +324,10 @@ section {
 	transition: transform 0.3s ease, background 0.3s ease;
 }
 
+#contact a {
+	color: #0073e6
+}
+
 /* Footer */
 footer {
     text-align: center;
