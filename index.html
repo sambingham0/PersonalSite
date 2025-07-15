@@ -4,115 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sam Bingham | Software Engineer</title>
+    <meta name="description" content="Sam Bingham - Software Engineer with experience in full-stack web development, containerized microservices, and responsive mapping apps.">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="smaller.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
+    <!-- Animated background particles -->
+    <div class="particles-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Gradient overlay -->
+    <div class="gradient-overlay"></div>
+
     <header>
-        <div id="arrows">
-            <img id="arrows-image" src="images/arrow-transparent-png.png" alt="arrows">
-        </div>
         <div id="title">
             <h1 id="nameHeader">Sam Bingham</h1>
             <p id="summaryHeader">Software Engineer | Problem Solver | Tech Enthusiast</p>
             <div class="social-links">
-                <a href="https://www.instagram.com/sam_bingham._/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://github.com/sambingham0" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/sam-bingham-2711b227b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/sam_bingham._/" target="_blank" rel="noopener" aria-label="Visit my Instagram profile"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/sambingham0" target="_blank" rel="noopener" aria-label="Visit my GitHub profile"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sam-bingham-2711b227b/" target="_blank" rel="noopener" aria-label="Visit my LinkedIn profile"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
     </header>
+
     <main>   
         <div class="about-resume">
             <section id="about">
-                <p>Hello! I'm Sam, a passionate software engineering student with a love for developing efficient and innovative solutions. I enjoy working with different programming languages and building projects that make a difference. I'm currently seeking internship opportunities to gain hands-on experience and further develop my skills.</p>
+                <p>Hi, I'm Sam! A software engineer with hands-on experience building real-world web applications, containerized back-end services, and responsive mapping tools. I thrive on solving complex problems and delivering reliable, user-focused products. My work spans full-stack development with Angular, Node.js, Python, Docker, and PostgreSQL in Agile environments with remote collaboration.</p>
             </section>
 
             <section id="resume">
-                <div class="letter-image" id="letter-image">
-                    <div class="animated-mail">
-                        <div class="back-fold"></div>
-                        <div class="letter">
-                            <div class="letter-border"></div>
-                            <div class="letter-title"></div>
-                            <div class="letter-title"></div>
-                            <div class="letter-context"><a href="Resume.pdf" target="_blank" id="resume-button">Resume</a></div>
-                            <div class="letter-stamp">
-                                <div class="letter-stamp-inner"></div>
-                            </div>
-                        </div>
-                        <div class="top-fold"></div>
-                        <div class="body"></div>
-                        <div class="left-fold"></div>
-                    </div>
-                    <div class="shadow"></div>
-                </div>
+                <a href="images/SamBingham_Resume.pdf" target="_blank" rel="noopener" id="resume-button">Resume</a>
             </section>
         </div>
-    
+
         <section id="projects">
             <h2>Projects</h2>
             <div class="project">
-                <h3>Clothing Picker</h3>
-                <p>A clothing picker application in Python for Raspberry Pi, featuring outfit filtering, weather-based recommendations, and favoriting functionality.</p>
+                <h3>Personal Styling Assistant</h3>
+                <p>Full-stack web application with Angular 20, Node.js/Express, and PostgreSQL featuring JWT authentication, file upload system, and visual outfit selection interface. Containerized with Docker and deployed to Docker Hub using Docker Compose and Nginx reverse proxy.</p>
                 <div class="project-links">
-                    <a href="https://github.com/sambingham0/ClothingPicker" target="_blank">Source Code</a>
-                    <a href="https://github.com/sambingham0/ClothingPicker" target="_blank">Demo</a>
+                    <a href="https://github.com/sambingham0/ClothingPicker" target="_blank" rel="noopener">Source Code</a>
                 </div>
             </div>
             <div class="project">
-                <h3>ArcGIS Parks Map</h3>
-                <p>An interactive website using ArcGIS, incorporating widgets and feature layers to display national and state parks and forests.</p>
+                <h3>Idaho Parks Explorer</h3>
+                <p>Responsive web mapping application using ArcGIS JavaScript API to help users discover and navigate Idaho's parks. Implemented advanced search, geocoding, real-time location services, and accessibility compliance.</p>
                 <div class="project-links">
-                    <a href="https://github.com/sambingham0/GISParksMap" target="_blank">Source Code</a>
-                    <a href="https://sambingham0.github.io/GISParksMap/" target="_blank">Demo</a>
+                    <a href="https://github.com/sambingham0/GISParksMap" target="_blank" rel="noopener">Source Code</a>
+                    <a href="https://sambingham0.github.io/GISParksMap/" target="_blank" rel="noopener">Live Demo</a>
                 </div>
             </div>
             <div class="project">
-                <h3>Memory Game</h3>
-                <p>A fun and interactive memory game built using HTML, CSS, and JavaScript.</p>
+                <h3>Snake</h3>
+                <p>Python-based Snake game with sound effects, power-ups, and high score tracking using Pygame. Added error logging and modular design for enhanced gameplay and maintainability.</p>
                 <div class="project-links">
-                    <a href="https://github.com/sambingham0/matchinggame" target="_blank">Source Code</a>
-                    <a href="https://youtu.be/D6anZs9ZBAY" target="_blank">Demo</a>
+                    <a href="https://github.com/sambingham0/snake" target="_blank" rel="noopener">Source Code</a>
                 </div>
             </div>
         </section>
 
         <section id="technologies">
-            <h2>Technologies</h2>
-            <div class="tech-grid">
-                <div class="tech-item">Python</div>
-                <div class="tech-item">HTML & CSS</div>
-                <div class="tech-item">JavaScript</div>
-                <div class="tech-item">C++</div>
-                <div class="tech-item">C#</div>
-                <div class="tech-item">SQL</div>
-                <div class="tech-item">Git</div>
-                <div class="tech-item">Linux</div>
-                <div class="tech-item">Raspberry Pi</div>
+            <h2>Technologies & Tools</h2>
+            <div class="tech-columns">
+                <div class="tech-col">
+                    <h3>Languages / Frameworks</h3>
+                    <ul class="tech-list">
+                        <li>TypeScript</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>SQL</li>
+                        <li>Angular</li>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>Firebase</li>
+                        <li>JWT</li>
+                        <li>MVC</li>
+                    </ul>
+                </div>
+                <div class="tech-col">
+                    <h3>Tools / Platforms</h3>
+                    <ul class="tech-list">
+                        <li>Docker</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>GitFlow</li>
+                        <li>PostgreSQL</li>
+                        <li>Kafka</li>
+                        <li>Linux</li>
+                        <li>Jira</li>
+                        <li>Confluence</li>
+                        <li>Agile/Scrum</li>
+                    </ul>
+                </div>
             </div>
         </section>        
-    
+
         <section id="personal">
             <h2>About Me</h2>
-            <p>Hi, I'm Sam! I'm a senior at BYU-Idaho, pursuing a degree in software engineering. I have a strong passion for developing efficient and innovative solutions, and I enjoy working with languages like Python, HTML/CSS/JavaScript, C++, C#, and SQL.</p>
-        
-            <p>Beyond coding, I love lifting weights, cooking, and reading. I also enjoy experimenting with projects on my Raspberry Pi, always looking for ways to tinker with tech. My approach to problem-solving is systematic: I evaluate the whole problem first, isolate errors, and work backward to develop a solution.</p>
-        
-            <p>Whether working independently or collaborating with a team, I adapt to the situation and thrive in both environments. Also, a fun fact about me, I can play the didgeridoo!</p>
+            <p>I'm a senior at Brigham Young University - Idaho, pursuing a Bachelor of Science in Software Engineering (graduating April 2026, 3.8 GPA). I'm currently a Software Engineering Intern at GeoComm, where I contribute Angular/TypeScript components to real-time public safety tools, working with Dockerized microservices such as Node.js, Kafka, PostgreSQL, and Elasticsearch. I work in Agile sprints using Jira, GitFlow, and Confluence to streamline development and documentation.</p>
+
+            <p>Previously, I worked as an Electronics Sales Associate at Walmart, where I maintained high performance while balancing a full-time engineering course load. I've proven my reliability, adaptability, and communication skills across demanding roles.</p>
+
+            <p>Outside of tech, I love lifting weights, cooking, and reading. I'm always tinkering with new projects, particularly on Raspberry PI, and I approach every challenge with a systematic, analytical mindset. Whether working solo or with a team, I thrive in fast-paced environments. Fun fact: I can play the didgeridoo!</p>
         </section>
-        
 
         <section id="contact">
             <h2>Contact</h2>
-            <p>If you'd like to get in touch, feel free to email me at <a href="mailto:sambingham3143@gmail.com">sambingham3143@gmail.com</a>
-            , or give me a call at <a href="tel:+14065943637">(406) 594-3637</a></p>
+            <p>If you'd like to get in touch, feel free to email me at <a href="mailto:sambingham3143@gmail.com">sambingham3143@gmail.com</a></p>
         </section>
     </main>
+
     <footer>
         <p>&copy; 2025 Sam Bingham. All Rights Reserved.</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
