@@ -31,7 +31,6 @@
             <h1 id="nameHeader">Sam Bingham</h1>
             <p id="summaryHeader">Software engineer passionate about building things and solving problems.</p>
             <div class="social-links">
-                <a href="https://www.instagram.com/sam_bingham._/" target="_blank" rel="noopener" aria-label="Visit my Instagram profile"><i class="fab fa-instagram"></i></a>
                 <a href="https://github.com/sambingham0" target="_blank" rel="noopener" aria-label="Visit my GitHub profile"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/sam-bingham-2711b227b/" target="_blank" rel="noopener" aria-label="Visit my LinkedIn profile"><i class="fab fa-linkedin"></i></a>
             </div>
@@ -41,44 +40,50 @@
     <main>   
         <div class="about-resume">
             <section id="about">
-                <p>I'm Sam — a software engineer with hands-on experience building full-stack web applications. I thrive on solving complex problems and creating reliable, user-focused products. I work effectively in Agile, collaborative, and remote environments.</p>
+                <p>
+                    I'm a software engineer with hands-on experience building full-stack web applications using Angular, ASP.NET Core, and Node.js. 
+                    I enjoy solving complex technical problems and designing reliable backend systems and responsive frontends. 
+                    My experience includes building REST APIs, implementing secure JWT authentication, integrating external APIs, and deploying containerized applications with Docker.
+                </p>            
             </section>
 
             <section id="resume">
-                <a href="images/SamBingham-Resume.pdf" target="_blank" rel="noopener" id="resume-button">Resume</a>
+                <a href="images/Sam_Bingham_Resume.pdf" target="_blank" rel="noopener" id="resume-button">Resume</a>
             </section>
         </div>
 
         <section id="projects">
             <h2>Projects</h2>
             <div class="project">
+                <h3>VinDex</h3>
+                <ul>
+                    <li>Full-stack vehicle lookup application utilizing an Angular frontend and an ASP.NET Core backend, containerized using Docker for streamlined development and deployment.</li>
+                    <li>Seamless external API integrations to retrieve real-time vehicle data and safety recalls from the NHTSA, optimizing latency and reducing external API load by implementing a robust caching layer and PostgreSQL database.</li>
+                    <li>Secure authentication and state management leveraging JWTs, Angular route guards, and HTTP interceptors for protected routing, backed by a relational database managed with Entity Framework Core and repository patterns.</li>
+                </ul>
+                <div class="project-links">
+                    <a href="https://github.com/sambingham0/VinDex" target="_blank" rel="noopener">Source Code</a>
+                </div>
+            </div>
+            <div class="project">
                 <h3>Personal Styling Assistant</h3>
                 <ul>
-                    <li>Built a full-stack web app with Angular 20, Node.js/Express, and PostgreSQL using JWT authentication, image upload, and a visual outfit selection interface with weather API integration.</li>
-                    <li>Containerized with Docker and deployed locally with Nginx reverse proxy.</li>
+                    <li>Full-stack wardrobe management application using Angular for a responsive frontend and a Node.js/Express backend, utilizing PostgreSQL for robust relational data storage and containerized with Docker and Nginx for deployment.</li>
+                    <li>Automated image processing and API integrations for clothing cataloging by building custom background removal features, alongside secure JWT authentication and real-time weather data to drive personalized recommendations.</li>
                 </ul>
                 <div class="project-links">
                     <a href="https://github.com/sambingham0/ClothingPicker" target="_blank" rel="noopener">Source Code</a>
                 </div>
             </div>
             <div class="project">
-                <h3>Inventory Manager</h3>
+                <h3>Appointly</h3>
                 <ul>
-                    <li>Developed an ASP.NET Core MVC inventory management system with full CRUD functionality, model validation, and a responsive Razor UI.</li>
-                    <li>Implemented dependency injection, JSON-based configuration, and RESTful endpoints for a lightweight, maintainable architecture.</li>
+                    <li>Team-oriented scheduling app (Blazor/ASP.NET) with appointment creation, participant management, and calendar-driven UI.</li>
+                    <li>Role-based access controls and appointment CRUD with team/participant relationships and conflict checks.</li>
+                    <li>Sprint-based team collaboration with Git and Jira workflow and code reviews demonstrating efficient delivery.</li>
                 </ul>
                 <div class="project-links">
-                    <a href="https://github.com/sambingham0/inventory-management" target="_blank" rel="noopener">Source Code</a>
-                </div>
-            </div>
-            <div class="project">
-                <h3>Recipe App</h3>
-                <ul>
-                    <li>Built a RESTful Recipe API with TypeScript, Node.js, and MongoDB implementing full CRUD operations with data validation and error handling.</li>
-                    <li>Integrated Swagger for automated documentation and deployed securely on Render.</li>
-                </ul>
-                <div class="project-links">
-                    <a href="https://github.com/sambingham0/recipe-app" target="_blank" rel="noopener">Source Code</a>
+                    <a href="https://github.com/sambingham0/appointly" target="_blank" rel="noopener">Source Code</a>
                 </div>
             </div>
         </section>
@@ -89,14 +94,13 @@
                 <div class="tech-col">
                     <h3>Languages / Frameworks</h3>
                     <ul class="tech-list">
-                        <li>TypeScript</li>
                         <li>C#</li>
-                        <li>ASP.NET</li>
+                        <li>TypeScript</li>
                         <li>JavaScript</li>
-                        <li>Python</li>
                         <li>SQL</li>
                         <li>Angular</li>
-                        <li>React</li>
+                        <li>ASP.NET Core</li>
+                        <li>Blazor</li>
                         <li>Node.js</li>
                         <li>Express</li>
                     </ul>
@@ -112,7 +116,6 @@
                         <li>GitHub</li>
                         <li>GitFlow</li>
                         <li>Linux</li>
-                        <li>Azure</li>
                         <li>Jira</li>
                         <li>Confluence</li>
                     </ul>
@@ -122,18 +125,24 @@
 
         <section id="personal">
             <h2>About Me</h2>
-            <p>I'm a senior at Brigham Young University - Idaho, pursuing a Bachelor of Science in Software Engineering (graduating April 2026, 3.8 GPA). I've worked as a Software Engineering Intern at GeoComm, where I contributed Angular and TypeScript components to real-time public safety tools, working with tools such as Node.js, Kafka, PostgreSQL, and Elasticsearch. I worked in Agile sprints using Jira, GitFlow, and Confluence to streamline development and documentation.</p>
-            <p>Outside of tech, I love lifting weights, cooking, and reading. I'm always tinkering with new projects on my Raspberry Pi, and I approach every challenge with a systematic, analytical mindset. Whether working solo or in a team, I thrive in fast-paced environments. Fun fact: I can play the didgeridoo!</p>
+            <p>
+                I'm a senior at Brigham Young University–Idaho pursuing a B.S. in Software Engineering (graduating April 2026, GPA 3.85).
+                I previously worked as a Software Engineering Intern at GeoComm where I developed Angular and TypeScript components for public safety mapping tools, wrote unit tests, and helped resolve application issues through debugging and code reviews in an Agile environment.
+            </p>
+            <p>
+                Outside of software engineering, I enjoy lifting weights, cooking, and working on personal technical projects. I like experimenting with backend systems, Docker environments, and Raspberry Pi projects. I approach problems systematically and enjoy both independent development and collaborative engineering work.
+            </p>
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
-            <p>If you'd like to get in touch, feel free to email me at <a href="mailto:sambingham3143@gmail.com">sambingham3143@gmail.com</a></p>
+            <p>Email: <a href="mailto:sambingham3143@gmail.com">sambingham3143@gmail.com</a></p>
+            <p>Phone: <a href="tel:4065943637">406-594-3637</a></p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Sam Bingham. All Rights Reserved.</p>
+        <p>&copy; 2026 Sam Bingham. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
